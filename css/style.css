@@ -236,29 +236,6 @@ section.home {
   padding: 5px 15px;
 }
 
-@media (max-width: 1068px) {
-  .home-img {
-    display: none;
-  }
-  .logo {
-    top: 10px;
-    left: 40px;
-    font-size: 1.5rem;
-  }
-
-  section {
-    padding: 100px 40px;
-  }
-
-  .navigation ul li a {
-    font-size: 2rem;
-  }
-
-  .services {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
 /* CONTACT */
 .contact {
   position: relative;
@@ -349,6 +326,54 @@ section.home {
 .contact-info .info-box .details p,
 .contact-info .info-box .details a {
   color: #111;
+}
+
+@media (max-width: 1068px) {
+  .home-img {
+    display: none;
+  }
+  .logo {
+    top: 10px;
+    left: 40px;
+    font-size: 1.5rem;
+  }
+
+  section {
+    padding: 100px 40px;
+  }
+
+  .navigation ul li a {
+    font-size: 2rem;
+  }
+
+  .services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .contact-form {
+    width: 100%;
+    padding: 30px 30px 20px;
+  }
+
+  .contact-form .row {
+    flex-direction: column;
+  }
+
+  .contact-form .input50,
+  .contact-form .input100 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .contact-info {
+    width: 100%;
+    margin-top: 20px;
+    padding: 30px 30px 20px;
+  }
 }
 
 @media (max-width: 768px) {
