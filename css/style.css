@@ -332,9 +332,7 @@ section.home {
 
 @media (max-width: 1068px) {
   .home-img {
-    /*
-    display: none;*/
-    width: 100%;
+    display: none;
   }
   .logo {
     top: 10px;
