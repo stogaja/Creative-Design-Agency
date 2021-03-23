@@ -13,6 +13,7 @@
 
 html,
 body {
+  background: linear-gradient(to right, #f4f4f4, whitesmoke, white, white);
   font-family: "Poppins", sans-serif;
   color: #111;
 }
@@ -156,6 +157,7 @@ section.home {
   bottom: 0;
   right: 0;
   height: 110%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 /* services style*/
@@ -330,7 +332,9 @@ section.home {
 
 @media (max-width: 1068px) {
   .home-img {
-    display: none;
+    /*
+    display: none;*/
+    width: 100%;
   }
   .logo {
     top: 10px;
