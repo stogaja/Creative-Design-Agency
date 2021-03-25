@@ -111,12 +111,15 @@ section.home {
 .btn {
   cursor: pointer;
   display: inline-block;
-  background: var(--primary-color);
+  background: rgba(246, 15, 32, 0.5);
+  border-radius: 7px;
+  backdrop-filter: blur(10px);
+  border: 3px solid transparent;
+  background-clip: padding-box;
   color: white;
   text-decoration: none;
   padding: 10px 30px;
   margin: 20px 0;
-  border: 0;
 }
 
 .btn:hover {
@@ -138,8 +141,12 @@ section.home {
   right: 0;
   width: 60px;
   height: 60px;
-  background: var(--primary-color) url(../images/menu.png);
+  background: rgba(246, 15, 32, 0.5) url(../images/menu.png);
   z-index: 20;
+  border-radius: 7px;
+  backdrop-filter: blur(10px);
+  border: 3px solid transparent;
+  background-clip: padding-box;
   background-size: 30px;
   background-repeat: no-repeat;
   background-position: center;
