@@ -168,6 +168,15 @@ section.home {
 }
 
 /* services style*/
+.services-body {
+  background: transparent;
+}
+
+.services-body section .title,
+.services-body .logo {
+  color: white;
+}
+
 #bg {
   position: fixed;
   top: -50%;
@@ -185,10 +194,6 @@ section.home {
   margin: auto;
   min-width: 50%;
   min-height: 50%;
-}
-
-.services-body{
-  background: transparent;
 }
 
 .services {
